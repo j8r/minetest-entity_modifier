@@ -27,7 +27,7 @@ entity_modifier.resize_player = function(player, size)
 	else
 		player:set_eye_offset(
 			{x=0, y=0, z=0},
-			{x=0, size * 5, -size}
+			{x=0, y=size * 5, z=-size}
 		)
 		if size >= 4 then
 			jump = 2
